@@ -11,9 +11,12 @@ categories: react, angular
 Improve your user's experience with animations. Learn about CSS and Javascript animations and when to use them.
 <!--more-->
 
-#### Getting started with animations
+#### Getting started with animation
 
-To animate is to transition the user interface from one display to another. Animation enhances user experience, providing feeback to user actions and making screens that haven't been introduced before easier to understand.
+Animation can be defined as, "The act, process, or result of imparting life, interest, spirit, motion, or activity." By applying the illusion of motion and change, a static component can quickly be brought to life. With regards to the evergrowing app development scene, animation is being used by designers and developers to differentiate their creations from those of their competitors.
+
+Animations provide feeback to the actions of a user, and can greatly enhance a user's experience as they transition from one visual display to another. Animations serve a number of purposes, including transition, focus, and delight:
+1) Transition: by accentuating a smooth movement between two visual states, a user can become familiar with the introduction of a new screen. A smooth transition makes it easier for a user to become acclimated to a new interface.
 
 An example can be seen with this [React Material UI datepicker](http://www.material-ui.com/#/components/date-picker). 
 The animations respond to user input and inform the user with transitions that show they are moving back or forward when they change month or select a date.
@@ -94,7 +97,7 @@ The React Motion spring takes two arguments: stiffness and damping (which defaut
 
 #### When to use CSS Animations
 
-As Cheng said in his talk, CSS animations are better for animations that you don't want to stop or adjust after they are triggered - such as Twitter's exploding heart animation. This is because CSS animations are more performant. React Motion does incur the cost of having your app re-rendered every animation frame which could be a problem if your application is not performant.
+As Lou stated in his talk, CSS animations are better for animations that you don't want to stop or adjust after they are triggered - such as Twitter's exploding heart animation. This is because CSS animations are more performant. React Motion does incur the cost of having your app re-rendered every animation frame which could be a problem if your application is not performant.
 
 
 
